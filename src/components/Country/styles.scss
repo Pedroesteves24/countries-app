@@ -29,4 +29,10 @@
     &-name{
         font-weight: 700;
     }
+
+    @media (max-width: 577px) {
+        .country-population, .country-area{
+            display: none;
+        }
+    }
 }

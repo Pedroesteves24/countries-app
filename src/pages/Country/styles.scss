@@ -4,10 +4,17 @@
         margin: 0 auto;
         padding: 0 1.5rem;
         display: flex;
+        @media (max-width: 577px) {
+            flex-direction: column;
+        }
     }
 
     &-aside{
         width: 30%;
+
+        @media (max-width: 577px) {
+            width: 100%;
+        }
 
         &-flag{
             padding: .5rem;
@@ -24,6 +31,9 @@
     &-main{
         flex: 1;
         padding-left: 1.5rem;
+        @media (max-width: 577px) {
+            padding-left: 0;
+        }
     }
 
     &-header{

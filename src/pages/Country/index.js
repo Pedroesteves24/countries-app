@@ -25,7 +25,7 @@ export function Country(){
 
     useEffect(() => {
         async function getBorders() {
-            const dataBorders = await Promise.all(country.borders.map(
+            const dataBorders = country?.borders && await Promise.all(country.borders.map(
                 border => getCountry(border)
                 ))
                 setBorders(dataBorders);

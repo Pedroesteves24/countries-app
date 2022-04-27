@@ -12,6 +12,10 @@
         --background-color: #2b2b2b;
         --color: #fafafa;
     }
+
+    @media (max-width: 577px) {
+        font-size: 14px;
+    }
 }
 
 body{

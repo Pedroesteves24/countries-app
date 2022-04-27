@@ -1,6 +1,5 @@
 import { useEffect, useState } from 'react';
 import { CountriesTable } from "../../components/CountriesTable";
-import { Country } from '../../components/Country';
 import { Search } from "../../components/Search";
 
 export function Home(){
